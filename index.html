@@ -1,0 +1,338 @@
+
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Suhaili Aqil | Personal Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- NAVIGATION -->
+<header class="header">
+    <nav class="navbar container">
+
+        <a href="#home" class="logo">
+            S<span>.</span>Aqil
+        </a>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Buka menu" aria-expanded="false">
+            ☰
+        </button>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#hobbies" class="nav-link">Interests</a></li>
+            <li><a href="#education" class="nav-link">Education</a></li>
+        </ul>
+
+        <button class="theme-toggle" id="themeToggle"
+                aria-label="Tukar tema">
+            ☾
+        </button>
+
+    </nav>
+</header>
+
+
+<!-- HERO SECTION -->
+<section class="hero" id="home">
+
+    <div class="hero-content container">
+
+        <div class="hero-text reveal">
+
+            <span class="eyebrow">
+                ✦ WELCOME TO MY PERSONAL SPACE
+            </span>
+
+            <h1>
+                Hello, I'm <br>
+                <span>Suhaili Aqil.</span>
+            </h1>
+
+            <h2>Diploma Student | Lifelong Learner</h2>
+
+            <p>
+                Selamat datang ke laman web peribadi saya.
+                Di sini anda boleh mengenali saya dengan lebih
+                dekat melalui biodata, minat dan perjalanan pendidikan.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#about" class="btn primary-btn">
+                    Discover More →
+                </a>
+
+                <a href="#education" class="btn secondary-btn">
+                    My Journey
+                </a>
+            </div>
+
+            <div class="hero-note">
+                <span class="status-dot"></span>
+                Currently learning and growing
+            </div>
+
+        </div>
+
+        <div class="hero-visual reveal">
+
+            <div class="decoration decoration-one"></div>
+            <div class="decoration decoration-two"></div>
+
+            <div class="profile-frame">
+
+                <img src="images/profile.jpg"
+                     alt="Gambar profil Suhaili Aqil"
+                     class="profile-image"
+                     onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+
+                <div class="profile-placeholder">
+                    SA
+                </div>
+
+            </div>
+
+            <div class="floating-card">
+                <span>✦</span>
+                Always learning
+            </div>
+
+        </div>
+
+    </div>
+
+    <a href="#about" class="scroll-indicator">
+        SCROLL TO EXPLORE ↓
+    </a>
+
+</section>
+
+
+<!-- ABOUT SECTION -->
+<section class="section about-section" id="about">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+            <span class="eyebrow">GET TO KNOW ME</span>
+            <h2>About <span>Me</span></h2>
+            <p>Kenali sedikit sebanyak tentang diri saya.</p>
+        </div>
+
+        <div class="about-grid">
+
+            <div class="about-description reveal">
+
+                <h3>A little introduction.</h3>
+
+                <p>
+                    Saya merupakan seorang pelajar Diploma
+                    Kesihatan Persekitaran yang mempunyai minat
+                    terhadap teknologi, pembelajaran dan
+                    pembangunan diri.
+                </p>
+
+                <p>
+                    Website ini dibangunkan sebagai ruang
+                    untuk memperkenalkan diri serta berkongsi
+                    maklumat mengenai minat dan latar belakang
+                    pendidikan saya.
+                </p>
+
+                <div class="about-quote">
+                    "Every day is an opportunity to learn something new."
+                </div>
+
+            </div>
+
+            <div class="info-card reveal">
+
+                <h3>Personal Information</h3>
+
+                <div class="info-item">
+                    <span>👤</span>
+                    <div>
+                        <small>Name</small>
+                        <strong>Suhaili Aqil</strong>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <span>🎓</span>
+                    <div>
+                        <small>Programme</small>
+                        <strong>Diploma Kesihatan Persekitaran</strong>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <span>💻</span>
+                    <div>
+                        <small>Interest</small>
+                        <strong>Technology & Web Development</strong>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <span>📍</span>
+                    <div>
+                        <small>Country</small>
+                        <strong>Malaysia</strong>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- HOBBIES SECTION -->
+<section class="section hobbies-section" id="hobbies">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+            <span class="eyebrow">MY FREE TIME</span>
+            <h2>My <span>Interests</span></h2>
+            <p>Antara aktiviti yang saya gemari pada waktu lapang.</p>
+        </div>
+
+        <div class="hobby-grid">
+
+            <article class="hobby-card reveal">
+                <div class="hobby-icon">⚽</div>
+                <span class="card-number">01</span>
+                <h3>Football</h3>
+                <p>
+                    Saya suka bermain bola sepak untuk
+                    mengisi masa lapang dan melakukan
+                    aktiviti bersama rakan-rakan.
+                </p>
+            </article>
+
+            <article class="hobby-card reveal">
+                <div class="hobby-icon">🎮</div>
+                <span class="card-number">02</span>
+                <h3>Gaming</h3>
+                <p>
+                    Saya gemar bermain permainan video
+                    sebagai salah satu aktiviti hiburan
+                    pada waktu lapang.
+                </p>
+            </article>
+
+            <article class="hobby-card reveal">
+                <div class="hobby-icon">🎧</div>
+                <span class="card-number">03</span>
+                <h3>Music</h3>
+                <p>
+                    Mendengar muzik merupakan antara
+                    aktiviti kegemaran saya untuk
+                    berehat dan menikmati masa lapang.
+                </p>
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- EDUCATION SECTION -->
+<section class="section education-section" id="education">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+            <span class="eyebrow">MY BACKGROUND</span>
+            <h2>Education <span>Journey</span></h2>
+            <p>Perjalanan pendidikan saya setakat ini.</p>
+        </div>
+
+        <div class="timeline">
+
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-label">01 · PRIMARY</span>
+                    <h3>Sekolah Rendah</h3>
+                    <p>Nama sekolah rendah anda.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-label">02 · SECONDARY</span>
+                    <h3>Sekolah Menengah</h3>
+                    <p>Nama sekolah menengah anda.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-label">03 · CURRENT</span>
+                    <h3>Diploma Kesihatan Persekitaran</h3>
+                    <p>Nama institusi pengajian anda.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer class="footer">
+
+    <div class="container footer-content">
+
+        <a href="#home" class="logo">
+            S<span>.</span>Aqil
+        </a>
+
+        <p>
+            Designed & Developed with care.
+        </p>
+
+        <p class="copyright">
+            © <span id="year"></span> Suhaili Aqil.
+            All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<!-- BACK TO TOP -->
+<button id="backToTop" class="back-to-top"
+        aria-label="Kembali ke atas">
+    ↑
+</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
